@@ -1,6 +1,7 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import { NewsItemListing } from '../presentation/NewsItemListing';
 
-class News extends Component {
+export class News extends Component {
     render() {
         return (
             <div>
@@ -14,4 +15,4 @@ class News extends Component {
     }
 }
 
-export default News
+export default News;

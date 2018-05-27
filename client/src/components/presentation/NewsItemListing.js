@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-class NewsItemListing extends Component {
+export class NewsItemListing extends Component {
     render() {
         return (
             <div>
